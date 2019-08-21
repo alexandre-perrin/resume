@@ -15,12 +15,12 @@
     {% if pos.title %}
 **{{pos.title}}** *{{pos.dates}}*
 
-{{pos.description}}
+{{ highlight_skills(pos.description) }}
     {% if pos.details %}
 <details><summary>Details</summary>
 
         {% for detail in pos.details %}
-* {{detail}}
+* {{ highlight_skills(detail) }}
         {% endfor %}
 
     {% endif %}
@@ -28,9 +28,9 @@
 <details><summary>Work</summary>
 
         {% for proj in pos.projects %}
-* {{proj.title}}
+* {{ proj.title }}
             {% for detail in proj.details %}
-    * {{detail}}
+    * {{ highlight_skills(detail) }}
             {% endfor %}
         {% endfor %}
     {% endif %}
@@ -62,7 +62,10 @@
                     Template                    
    =============================================
 #}
+
 # {{name}}
+
+![](/imgs/skillcloud.png)
 
 <details><summary>Contact info</summary>
 
@@ -87,24 +90,6 @@
 
 ## ![]({{ icon('info') }}) Who am I? 
 
-
-<div style="width: 200px; height: 200px">
-    <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
-    <div data-wordart-src="//cdn.wordart.com/json/ko7fzfxv4ubx"
-         style="width: 100%; height: 100%"
-    ></div>
-    <div data-wordart-src="//cdn.wordart.com/json/r4kupcb1jgdk"
-         style="position: absolute; 
-                width: 120px;
-                height: 120px;
-                top: 40px;
-                left: 40px;" 
-    ></div>
-</div>
-
-{% if age %}
-{{ age }} years old
-{% endif %}
 {% if presentation %}
 {{presentation}}
 {% endif %}
@@ -118,6 +103,24 @@ Talk to me in
 {% endfor %}
 
 ## ![]({{ icon('skills') }}) What I'm good at...
+
+{#
+<div style="float: right; position: relative; 
+            --size: 300px; 
+            --size-core: calc(var(--size) * 0.6);
+            --pos-core: calc((var(--size) - var(--size-core)) / 2);
+            ">
+    <img style="width: var(--size); height: var(--size)"
+         src="imgs/soft_skills.png" />
+    <img style="position: absolute; 
+                width: var(--size-core);
+                height: var(--size-core);
+                top: var(--pos-core);
+                left: var(--pos-core); 
+                background: transparent" 
+         src="imgs/hard_skills.png" />
+</div>
+#}
 
 **Top competencies:**
 {% for skill, level in (skills.items()|list)[:5] %}

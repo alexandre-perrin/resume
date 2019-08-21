@@ -1,4 +1,7 @@
+
 # Alexandre Perrin
+
+![](/imgs/skillcloud.png)
 
 <details><summary>Contact info</summary>
 
@@ -16,23 +19,12 @@
 
 ## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
 
-
-<div style="width: 200px; height: 200px">
-    <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
-    <div data-wordart-src="//cdn.wordart.com/json/ko7fzfxv4ubx"
-         style="width: 100%; height: 100%"
-    ></div>
-    <div data-wordart-src="//cdn.wordart.com/json/r4kupcb1jgdk"
-         style="position: absolute; 
-                width: 120px;
-                height: 120px;
-                top: 40px;
-                left: 40px;" 
-    ></div>
-</div>
-
 34 years old
-curious, creative, independant, sociable I have strong technical skills 
+
+I am a creative and curious developper with strong technical skills in 
+embedded systems in real time environment. I am independent and I keep 
+myself up-to-date to relevent technologies and techniques. 
+I see myself more and more attracted to CI/CD DevOps solutions, IOT and  scripting.
 
 
 Talk to me in 
@@ -41,6 +33,7 @@ Talk to me in
 **english** I'm fluent
 
 ## ![](https://material.io/resources/icons/static/icons/round-how_to_reg-24px.svg) What I'm good at...
+
 
 **Top competencies:**
 * **C/C++**
@@ -61,7 +54,7 @@ Talk to me in
 * **CI/CD**
 * **Scripting**
 * **Jupyter**
-* **Labview**
+* **LabVIEW**
 * **Simulink**
 * **Driver**
 * **Testing**
@@ -98,7 +91,7 @@ Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
 
 * wrote functional and design specifications
 * contributed to baremetal real-time firmware and linux services development and maintenance
-* contributed to CI/CD platform improvement (Jenkins, Artifactory, Conan)
+* contributed to **CI/CD** platform improvement (**Jenkins**, **Artifactory**, Conan)
 * contributed to firmware maintenance
 
 <details><summary>Work</summary>
@@ -115,12 +108,12 @@ Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
     * CFFI wrappers to test c code with pytest
     * diagnostic toolbox for developers
 * Deployment assessment of Continuous Integration/Delivery on Jenkins server
-    * usage of Jenkins pipelines and jenkinsfile script
+    * usage of **Jenkins** pipelines and jenkinsfile script
     * evaluated a c/c++ package dependency manager (conan)
-    * evaluated the usage of an artifact server (Artifactory)
+    * evaluated the usage of an artifact server (**Artifactory**)
     * deployed pipelines for firmwares development branches (test undergoing)
 * Deployed a Jupyter notebook server as sandbox for R&D team
-    * Wrote interactive documentations on Jupyter notebook about code implementation to quickly pass knowledge to new developers
+    * Wrote interactive documentations on **Jupyter** notebook about code implementation to quickly pass knowledge to new developers
     * Writing investigations, development and deployment journals in notebook
 
 </details>
@@ -162,7 +155,7 @@ product Vivia Hemodialysis System
 
 <details><summary>Details</summary>
 
-* developed Proof Of Concept tools (C# / LabVIEW)
+* developed Proof Of Concept tools (**C#** / **LabVIEW**)
 * wrote risk assessment with Software of Unknown Pedigree/Commercial off-the-shelf software
 * wrote Functional and Software Design Specifications, and software validation protocol (Installation/Operational Qualification)
 * contributed to embedded firmware development
@@ -182,7 +175,7 @@ My mission was to develop a proof of concept with 4-axis robot arm to handle cri
 
 <details><summary>Details</summary>
 
-* programmed Epson robot (SCARA) arm routines with Visual Basic .NET user interface
+* programmed Epson robot (SCARA) arm routines with Visual Basic **.NET** user interface
 * designed mechanical tray and a pick-up tool prototype to handle samples
 * developed a GUI to plot experiment results into charts and compute non-linear fit curves
 
@@ -201,7 +194,7 @@ Developed a new digital electronic control for an inertial vibrating gyro-meter 
 <details><summary>Details</summary>
 
 * optimized and redesigned the existing system to reduce cost and improve performances
-* simulated different solutions on MatLab / Simulink
+* simulated different solutions on MatLab / **Simulink**
 * developed the chosen Real Time solution on DSC Microchip platform dsPIC33
 * appraised final results and compared performances
 

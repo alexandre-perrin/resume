@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from datetime import date
@@ -49,7 +50,13 @@ class Data(dict):
         self.update(data)
         self['age'] = self.age
         self['icon'] = self.icon
+        self['highlight_skills'] = self.highlight_skills
         return self
+
+    def highlight_skills(self, s):
+        for key in self['skills']:
+            s = s.replace(key, '**%s**' % key)
+        return s
 
     def icon(self, cat):
         name = icons[cat]
@@ -65,7 +72,6 @@ class Data(dict):
 def generate():
 
     data = Data().load("resume.yml")
-    
     data['skills'] = Competencies().load("competencies.txt")
         
     env = Environment(

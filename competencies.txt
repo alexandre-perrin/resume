@@ -19,7 +19,7 @@ Jenkins;8
 C#;5
 Driver;6
 Matlab;5
-Labview;6
+LabVIEW;6
 .NET;4
 JSON;8
 Simulink;6
