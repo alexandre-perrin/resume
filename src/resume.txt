@@ -15,12 +15,12 @@
     {% if pos.title %}
 **{{pos.title}}** *{{pos.dates}}*
 
-{{ highlight_skills(pos.description) }}
+{{ data.highlight_skills(pos.description) }}
     {% if pos.details %}
 <details><summary>Details</summary>
 
         {% for detail in pos.details %}
-* {{ highlight_skills(detail) }}
+* {{ data.highlight_skills(detail) }}
         {% endfor %}
 
     {% endif %}
@@ -30,7 +30,7 @@
         {% for proj in pos.projects %}
 * {{ proj.title }}
             {% for detail in proj.details %}
-    * {{ highlight_skills(detail) }}
+    * {{ data.highlight_skills(detail) }}
             {% endfor %}
         {% endfor %}
     {% endif %}
@@ -63,63 +63,63 @@
    =============================================
 #}
 
-# {{name}}
+# {{data.name}}
 
 ![](/imgs/skillcloud.png)
 
 <details><summary>Info</summary>
 
-{% if birth.date %}
-{% if age %}
-{{ age }} years old
+{% if data.birth.date %}
+{% if data.age %}
+{{ data.age }} years old
 {% endif %}
 
-![]({{ icon('birth') }}) {{birth.date}} / {{birth.location}}
+![]({{ data.icon('birth') }}) {{data.birth.date}} / {{data.birth.location}}
 {% endif %}
 
-{% if email %}
-![]({{ icon('mail') }}) [{{email}}](mailto:{{email}})
+{% if data.email %}
+![]({{ data.icon('mail') }}) [{{data.email}}](mailto:{{data.email}})
 
 {% endif %}
-{% if drive %}
-![]({{ icon('car') }}) Yes
+{% if data.drive %}
+![]({{ data.icon('car') }}) Yes
 
 {% endif %}
-{% if tel %}
-![]({{ icon('tel') }}) {{tel}}
+{% if data.tel %}
+![]({{ data.icon('tel') }}) {{data.tel}}
 
 {% endif %}
-{#% if address %}
-![]({{ icon('address') }}) {{address}}
+{#% if data.address %}
+![]({{ data.icon('address') }}) {{data.address}}
 
 {% endif %#}
-{% if linkedin %}
-![]({{ icon('linkedin') }}) {{linkedin}}
+{% if data.linkedin %}
+![]({{ data.icon('linkedin') }}) {{data.linkedin}}
 
 {% endif %}
 {% if github %}
-![]({{ icon('github') }}) {{github}}
+![]({{ data.icon('github') }}) {{data.github}}
 
 {% endif %}
 
 </details>
 
 
-## ![]({{ icon('info') }}) Who am I? 
+## ![]({{ data.icon('info') }}) Who am I? 
 
-{% if presentation %}
-{{presentation}}
+{% if data.presentation %}
+{{data.presentation}}
 {% endif %}
 
 You can talk to me in 
-{% for lang, lvl in languages.items() %}
+{% for lang, lvl in data.languages.items() %}
 **{{lang}}** I'm {{lvl}}
-{% if lang != languages|list|last %}
+{% if lang != data.languages|list|last %}
  or 
 {% endif %}
 {% endfor %}
 
-## ![]({{ icon('skills') }}) What I'm good at...
+## ![]({{ data.icon('skills') }}) What I'm good at...
 
 {#
 <div style="float: right; position: relative; 
@@ -140,13 +140,13 @@ You can talk to me in
 #}
 
 **Top technical skills:**
-{% for skill, level in (skills.items()|list)[:5] %}
+{% for skill, level in (data.skills.items()|list)[:5] %}
 * **{{skill}}**
 {% endfor %}
 
 <details><summary>More</summary>
 
-{% for skill, level in (skills.items()|list)[5:] %}
+{% for skill, level in (data.skills.items()|list)[5:] %}
 * **{{skill}}**
 {% endfor %}
 
@@ -154,8 +154,8 @@ You can talk to me in
 
 ---
 {# =============== Experience ================== #}
-## ![]({{ icon('experience') }}) What did I do? 
-{% for xp in experience %}
+## ![]({{ data.icon('experience') }}) What did I do? 
+{% for xp in data.experience %}
 
 {{ _title(xp.company) }}
 
@@ -167,13 +167,13 @@ You can talk to me in
 {% endfor %}
 ---
 {# ================ Education ================== #}
-## ![]({{ icon('education') }}) My background 
-{% for edu in education %}
+## ![]({{ data.icon('education') }}) My background 
+{% for edu in data.education %}
 {{ _education(edu) }}
 {% endfor %}
 
 {# ================ Projects =================== #}
-## ![]({{ icon('project') }}) What else? 
-{% for proj in projects %}
+## ![]({{ data.icon('project') }}) What else? 
+{% for proj in data.projects %}
 {{_experience(proj)}}
 {% endfor %}

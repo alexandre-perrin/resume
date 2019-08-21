@@ -17,8 +17,6 @@
 
 ![](imgs/linkedin.png) https://www.linkedin.com/in/alexandre-perrin-90976443/
 
-![](imgs/github.png) https://github.com/alexandre-perrin
-
 
 </details>
 
