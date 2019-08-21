@@ -113,7 +113,7 @@ def generate():
     template = env.get_template("resume.txt")
     md = template.render(data)
 
-    with open('resume.md', 'w', encoding='UTF-8') as f:
+    with open('README.md', 'w', encoding='UTF-8') as f:
         f.write(md)
         
 if __name__ == '__main__':
