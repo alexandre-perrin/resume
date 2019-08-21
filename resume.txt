@@ -1,0 +1,159 @@
+{#
+   =============================================
+                 Macro definition                
+   =============================================
+
+   ================= Title ===================== 
+#}
+{% macro _title(item) %}
+### {% if item.url %}[{{item.name}}]({{item.url}}){% else %}{{item.name}}{% endif %}
+{% endmacro %}
+{# 
+   =============== Experience ================== 
+#}
+{% macro _experience(pos) %}
+    {% if pos.title %}
+**{{pos.title}}** *{{pos.dates}}*
+
+{{pos.description}}
+    {% if pos.details %}
+<details><summary>Details</summary>
+
+        {% for detail in pos.details %}
+* {{detail}}
+        {% endfor %}
+
+    {% endif %}
+    {% if pos.projects %}
+<details><summary>Work</summary>
+
+        {% for proj in pos.projects %}
+* {{proj.title}}
+            {% for detail in proj.details %}
+    * {{detail}}
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+
+</details>
+</details>
+{% endif %}
+{% endmacro %}
+{#
+   ================ Education ==================
+#}
+{% macro _education(edu) %}
+{{ _title(edu) }}
+
+    {% if edu.degree %}**{{edu.degree}}**
+    {% endif %}
+    {% if edu.field %}*{{edu.field}}*
+    {% endif %}
+    {% if edu.dates %}*{{edu.dates}}*
+    {% endif %}{{edu.description}}
+    {% if edu.activities %}
+**Activities:**
+
+{{edu.activities}}
+    {% endif %}
+{% endmacro %}
+{#
+   =============================================
+                    Template                    
+   =============================================
+#}
+# {{name}}
+
+<details><summary>Contact info</summary>
+
+{% if email %}**Mail**: [{{email}}](mailto:{{email}})
+
+{% endif %}
+{% if tel %}**Tel**: {{tel}}
+
+{% endif %}
+{#% if address %}**Address**: {{address}}
+
+{% endif %#}
+{% if linkedin %}**Linkedin**: {{linkedin}}
+
+{% endif %}
+{% if github %}**GitHub**: {{github}}
+
+{% endif %}
+
+</details>
+
+
+## ![]({{ icon('info') }}) Who am I? 
+
+
+<div style="width: 200px; height: 200px">
+    <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
+    <div data-wordart-src="//cdn.wordart.com/json/ko7fzfxv4ubx"
+         style="width: 100%; height: 100%"
+    ></div>
+    <div data-wordart-src="//cdn.wordart.com/json/r4kupcb1jgdk"
+         style="position: absolute; 
+                width: 120px;
+                height: 120px;
+                top: 40px;
+                left: 40px;" 
+    ></div>
+</div>
+
+{% if age %}
+{{ age }} years old
+{% endif %}
+{% if presentation %}
+{{presentation}}
+{% endif %}
+
+Talk to me in 
+{% for lang, lvl in languages.items() %}
+**{{lang}}** I'm {{lvl}}
+{% if lang != languages|list|last %}
+ or 
+{% endif %}
+{% endfor %}
+
+## ![]({{ icon('skills') }}) What I'm good at...
+
+**Top competencies:**
+{% for skill, level in (skills.items()|list)[:5] %}
+* **{{skill}}**
+{% endfor %}
+
+<details><summary>More</summary>
+
+{% for skill, level in (skills.items()|list)[5:] %}
+* **{{skill}}**
+{% endfor %}
+
+</details>
+
+---
+{# =============== Experience ================== #}
+## ![]({{ icon('experience') }}) What did I do? 
+{% for xp in experience %}
+
+{{ _title(xp.company) }}
+
+    {% for pos in xp.positions %}
+{{ _experience(pos) }}
+    {% endfor %}
+    
+{{ _experience(xp) }}
+{% endfor %}
+---
+{# ================ Education ================== #}
+## ![]({{ icon('education') }}) My background 
+{% for edu in education %}
+{{ _education(edu) }}
+{% endfor %}
+
+{# ================ Projects =================== #}
+## ![]({{ icon('project') }}) What else? 
+{% for proj in projects %}
+{{_experience(proj)}}
+{% endfor %}

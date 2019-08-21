@@ -1,0 +1,36 @@
+competency;level
+ARM Cortex-M;8
+Lauterbach;5
+DevOps;3
+Control Theory;3
+Artifactory;4
+dSPACE;3
+BLE;2
+DSP;3
+Comm Protocols;5
+Bluetooth;2
+CI/CD;7
+Linux;7
+C/C++;9
+Embedded Systems;8
+Python;8
+RTOS;7
+Jenkins;8
+C#;5
+Driver;6
+Matlab;5
+Labview;6
+.NET;4
+JSON;8
+Simulink;6
+Jupyter;6
+Software Architecture;7
+Scripting;6
+Debugging;8
+Testing;5
+Medical Devices;4
+Test Automation;8
+Integration;7
+Control Systems;5
+Robotics;3
+Electronics;2

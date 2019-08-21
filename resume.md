@@ -1,16 +1,91 @@
 # Alexandre Perrin
 
-## Who am I? ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) 
-Lorem ipsum dolor...
+<details><summary>Contact info</summary>
 
-Lorem ipsum dolor...
+**Mail**: [alexandreperr@gmail.com](mailto:alexandreperr@gmail.com)
+
+**Tel**: +33(0)6 52 00 84 81
+
+**Linkedin**: https://www.linkedin.com/in/alexandre-perrin-90976443/
+
+**GitHub**: https://github.com/alexandre-perrin
 
 
-## What I'm good at... ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) 
-![](imgs/competencies.png)
+</details>
+
+
+## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
+
+
+<div style="width: 200px; height: 200px">
+    <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
+    <div data-wordart-src="//cdn.wordart.com/json/ko7fzfxv4ubx"
+         style="width: 100%; height: 100%"
+    ></div>
+    <div data-wordart-src="//cdn.wordart.com/json/r4kupcb1jgdk"
+         style="position: absolute; 
+                width: 120px;
+                height: 120px;
+                top: 40px;
+                left: 40px;" 
+    ></div>
+</div>
+
+34 years old
+curious, creative, independant, sociable I have strong technical skills 
+
+
+Talk to me in 
+**french** I'm native
+ or 
+**english** I'm fluent
+
+## ![](https://material.io/resources/icons/static/icons/round-how_to_reg-24px.svg) What I'm good at...
+
+**Top competencies:**
+* **C/C++**
+* **ARM Cortex-M**
+* **Debugging**
+* **Jenkins**
+* **Python**
+
+<details><summary>More</summary>
+
+* **Embedded Systems**
+* **JSON**
+* **Test Automation**
+* **Software Architecture**
+* **Linux**
+* **Integration**
+* **RTOS**
+* **CI/CD**
+* **Scripting**
+* **Jupyter**
+* **Labview**
+* **Simulink**
+* **Driver**
+* **Testing**
+* **Control Systems**
+* **C#**
+* **Matlab**
+* **Lauterbach**
+* **Comm Protocols**
+* **.NET**
+* **Medical Devices**
+* **Artifactory**
+* **DSP**
+* **dSPACE**
+* **Control Theory**
+* **DevOps**
+* **Robotics**
+* **Bluetooth**
+* **BLE**
+* **Electronics**
+
+</details>
 
 ---
-## What did I do? ![](https://material.io/resources/icons/static/icons/round-work-24px.svg) 
+## ![](https://material.io/resources/icons/static/icons/round-work-24px.svg) What did I do? 
 
 ### [Merck Millipore](http://www.merckmillipore.)
 
@@ -135,7 +210,7 @@ Developed a new digital electronic control for an inertial vibrating gyro-meter 
 </details>
 
 ---
-## My background ![](https://material.io/resources/icons/static/icons/round-school-24px.svg) 
+## ![](https://material.io/resources/icons/static/icons/round-school-24px.svg) My background 
 ### [UTBM](https://www.utbm.fr/)
 
 **GESC (Master's)**
@@ -169,7 +244,7 @@ In charge of quality and specifications writing
 
 
 
-# What else? ![](https://material.io/resources/icons/static/icons/round-camera-24px.svg) 
+## ![](https://material.io/resources/icons/static/icons/round-favorite-24px.svg) What else? 
 **Student film making** *2003 - 2005*
 
 I participated to making a short movie for a suddent non-for-profit organization. I assisted the stage manager and director in various tasks, such as technical deployement, sound taking, visual effects.
