@@ -3,15 +3,21 @@
 
 ![](/imgs/skillcloud.png)
 
-<details><summary>Contact info</summary>
+<details><summary>Info</summary>
 
-**Mail**: [alexandreperr@gmail.com](mailto:alexandreperr@gmail.com)
+34 years old
 
-**Tel**: +33(0)6 52 00 84 81
+![](imgs/baby-carriage.png) 07-05-1985 / Nancy - France
 
-**Linkedin**: https://www.linkedin.com/in/alexandre-perrin-90976443/
+![](imgs/email.png) [alexandreperr@gmail.com](mailto:alexandreperr@gmail.com)
 
-**GitHub**: https://github.com/alexandre-perrin
+![](imgs/car.png) Yes
+
+![](imgs/phone.png) +33(0)6 52 00 84 81
+
+![](imgs/linkedin.png) https://www.linkedin.com/in/alexandre-perrin-90976443/
+
+![](imgs/github.png) https://github.com/alexandre-perrin
 
 
 </details>
@@ -19,15 +25,13 @@
 
 ## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
 
-34 years old
-
 I am a creative and curious developper with strong technical skills in 
 embedded systems in real time environment. I am independent and I keep 
 myself up-to-date to relevent technologies and techniques. 
 I see myself more and more attracted to CI/CD DevOps solutions, IOT and  scripting.
 
 
-Talk to me in 
+You can talk to me in 
 **french** I'm native
  or 
 **english** I'm fluent
@@ -35,45 +39,46 @@ Talk to me in
 ## ![](https://material.io/resources/icons/static/icons/round-how_to_reg-24px.svg) What I'm good at...
 
 
-**Top competencies:**
+**Top technical skills:**
 * **C/C++**
 * **ARM Cortex-M**
-* **Debugging**
 * **Jenkins**
 * **Python**
+* **Embedded Systems**
 
 <details><summary>More</summary>
 
-* **Embedded Systems**
-* **JSON**
-* **Test Automation**
+* **Real-Time**
 * **Software Architecture**
+* **CI/CD**
 * **Linux**
 * **Integration**
+* **Test Automation**
 * **RTOS**
-* **CI/CD**
-* **Scripting**
-* **Jupyter**
 * **LabVIEW**
+* **Jupyter**
 * **Simulink**
+* **JSON**
+* **Debugging**
 * **Driver**
-* **Testing**
-* **Control Systems**
-* **C#**
-* **Matlab**
+* **Scripting**
 * **Lauterbach**
+* **Matlab**
+* **C#**
+* **Control Systems**
 * **Comm Protocols**
-* **.NET**
+* **Testing**
 * **Medical Devices**
+* **.NET**
 * **Artifactory**
 * **DSP**
-* **dSPACE**
-* **Control Theory**
 * **DevOps**
+* **Control Theory**
+* **dSPACE**
 * **Robotics**
 * **Bluetooth**
-* **BLE**
 * **Electronics**
+* **BLE**
 
 </details>
 
@@ -90,8 +95,8 @@ Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
 <details><summary>Details</summary>
 
 * wrote functional and design specifications
-* contributed to baremetal real-time firmware and linux services development and maintenance
-* contributed to **CI/CD** platform improvement (**Jenkins**, **Artifactory**, Conan)
+* contributed to baremetal <b>real-time</b> firmware and <b>linux</b> services development and maintenance
+* contributed to <b>CI/CD</b> platform improvement (<b>Jenkins</b>, <b>Artifactory</b>, Conan)
 * contributed to firmware maintenance
 
 <details><summary>Work</summary>
@@ -104,16 +109,16 @@ Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
     * developed a File System in User Space
     * contributed to improvement and bug fixes of core server application
 * Python development of scripts and libraries
-    * C code generation tool based on COGapp python library
+    * C code generation tool based on COGapp <b>python</b> library
     * CFFI wrappers to test c code with pytest
     * diagnostic toolbox for developers
 * Deployment assessment of Continuous Integration/Delivery on Jenkins server
-    * usage of **Jenkins** pipelines and jenkinsfile script
-    * evaluated a c/c++ package dependency manager (conan)
-    * evaluated the usage of an artifact server (**Artifactory**)
+    * usage of <b>Jenkins</b> pipelines and <b>jenkins</b>file script
+    * evaluated a <b>c/c++</b> package dependency manager (conan)
+    * evaluated the usage of an artifact server (<b>Artifactory</b>)
     * deployed pipelines for firmwares development branches (test undergoing)
 * Deployed a Jupyter notebook server as sandbox for R&D team
-    * Wrote interactive documentations on **Jupyter** notebook about code implementation to quickly pass knowledge to new developers
+    * Wrote interactive documentations on <b>Jupyter</b> notebook about code implementation to quickly pass knowledge to new developers
     * Writing investigations, development and deployment journals in notebook
 
 </details>
@@ -128,7 +133,7 @@ of Milli-Q Type 1 Ultrapure Water product IQ-7000
 <details><summary>Details</summary>
 
 * wrote functional and design specifications
-* developped multiple real-time devices firmwares
+* developped multiple <b>real-time</b> devices firmwares
 * contributed to firmware maintenance
 
 <details><summary>Work</summary>
@@ -155,7 +160,7 @@ product Vivia Hemodialysis System
 
 <details><summary>Details</summary>
 
-* developed Proof Of Concept tools (**C#** / **LabVIEW**)
+* developed Proof Of Concept tools (<b>C#</b> / <b>LabVIEW</b>)
 * wrote risk assessment with Software of Unknown Pedigree/Commercial off-the-shelf software
 * wrote Functional and Software Design Specifications, and software validation protocol (Installation/Operational Qualification)
 * contributed to embedded firmware development
@@ -175,7 +180,7 @@ My mission was to develop a proof of concept with 4-axis robot arm to handle cri
 
 <details><summary>Details</summary>
 
-* programmed Epson robot (SCARA) arm routines with Visual Basic **.NET** user interface
+* programmed Epson robot (SCARA) arm routines with Visual Basic <b>.NET</b> user interface
 * designed mechanical tray and a pick-up tool prototype to handle samples
 * developed a GUI to plot experiment results into charts and compute non-linear fit curves
 
@@ -194,8 +199,8 @@ Developed a new digital electronic control for an inertial vibrating gyro-meter 
 <details><summary>Details</summary>
 
 * optimized and redesigned the existing system to reduce cost and improve performances
-* simulated different solutions on MatLab / **Simulink**
-* developed the chosen Real Time solution on DSC Microchip platform dsPIC33
+* simulated different solutions on <b>MatLab</b> / <b>Simulink</b>
+* developed the chosen Real Time solution on DSC Microchip platform <b>dsP</b>IC33
 * appraised final results and compared performances
 
 

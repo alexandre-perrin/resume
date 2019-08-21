@@ -67,21 +67,38 @@
 
 ![](/imgs/skillcloud.png)
 
-<details><summary>Contact info</summary>
+<details><summary>Info</summary>
 
-{% if email %}**Mail**: [{{email}}](mailto:{{email}})
+{% if birth.date %}
+{% if age %}
+{{ age }} years old
+{% endif %}
+
+![]({{ icon('birth') }}) {{birth.date}} / {{birth.location}}
+{% endif %}
+
+{% if email %}
+![]({{ icon('mail') }}) [{{email}}](mailto:{{email}})
 
 {% endif %}
-{% if tel %}**Tel**: {{tel}}
+{% if drive %}
+![]({{ icon('car') }}) Yes
 
 {% endif %}
-{#% if address %}**Address**: {{address}}
+{% if tel %}
+![]({{ icon('tel') }}) {{tel}}
+
+{% endif %}
+{#% if address %}
+![]({{ icon('address') }}) {{address}}
 
 {% endif %#}
-{% if linkedin %}**Linkedin**: {{linkedin}}
+{% if linkedin %}
+![]({{ icon('linkedin') }}) {{linkedin}}
 
 {% endif %}
-{% if github %}**GitHub**: {{github}}
+{% if github %}
+![]({{ icon('github') }}) {{github}}
 
 {% endif %}
 
@@ -94,7 +111,7 @@
 {{presentation}}
 {% endif %}
 
-Talk to me in 
+You can talk to me in 
 {% for lang, lvl in languages.items() %}
 **{{lang}}** I'm {{lvl}}
 {% if lang != languages|list|last %}
@@ -122,7 +139,7 @@ Talk to me in
 </div>
 #}
 
-**Top competencies:**
+**Top technical skills:**
 {% for skill, level in (skills.items()|list)[:5] %}
 * **{{skill}}**
 {% endfor %}

@@ -5,18 +5,50 @@ from jinja2 import Environment, FileSystemLoader
 from datetime import date
 from pandas import read_csv
 
-icon_conf = dict(
-    url = 'https://material.io/resources/icons/static/icons',
-    style = 'round',
-    size = '24px',
+class Icon:
+    fmt = ''
+
+    def __init__(self, name, **kw):
+        self.name = name
+        self.__dict__.update(kw)
+
+    def __str__(self):
+        d = vars(self)
+        d.update(vars(self.__class__))
+        return self.fmt.format(**d) 
+
+    def __repr__(self):
+        return str(self)
+
+class LocalIcons(Icon):
+    fmt = 'imgs/{name}.png'
+
+class IonIcons(Icon):
+    url = 'https://ionicons.com/ionicons/svg'
+    fmt = '{url}/{name}.svg'
+
+class MaterialIoIcons(Icon):
+    url = 'https://material.io/resources/icons/static/icons'
+    style = 'round'
+    size = '24px'
     type = 'svg'
-)
+    fmt = '{url}/{style}-{name}-{size}.{type}'
+    
 icons = {
-    'experience': 'work',
-    'education' : 'school',
-    'info'      : 'person',
-    'skills'    : 'how_to_reg',
-    'project'   : 'favorite',
+    'experience': MaterialIoIcons('work'),
+    'education' : MaterialIoIcons('school'),
+    'info'      : MaterialIoIcons('person'),
+    'skills'    : MaterialIoIcons('how_to_reg'),
+    'project'   : MaterialIoIcons('favorite'),
+    'mail'      : LocalIcons('email'),
+    'email'     : LocalIcons('email'),
+    'tel'       : LocalIcons('phone'),
+    'phone'     : LocalIcons('phone'),
+    'address'   : LocalIcons('home'),
+    'car'       : LocalIcons('car'),
+    'linkedin'  : LocalIcons('linkedin'),
+    'github'    : LocalIcons('github'),
+    'birth'     : LocalIcons('baby-carriage')
 }
 
 def tolevel(lvl):
@@ -55,12 +87,11 @@ class Data(dict):
 
     def highlight_skills(self, s):
         for key in self['skills']:
-            s = s.replace(key, '**%s**' % key)
+            s = re.sub('(%s)' % re.escape(key), r'<b>\1</b>', s, flags=re.MULTILINE | re.IGNORECASE)
         return s
 
-    def icon(self, cat):
-        name = icons[cat]
-        return '{url}/{style}-{name}-{size}.{type}'.format(name=name, **icon_conf) 
+    def icon(self, name):
+        return str(icons[name])
 
     @property
     def age(self):

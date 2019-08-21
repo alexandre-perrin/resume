@@ -21,16 +21,17 @@ Driver;6
 Matlab;5
 LabVIEW;6
 .NET;4
-JSON;8
+JSON;6
 Simulink;6
 Jupyter;6
 Software Architecture;7
 Scripting;6
-Debugging;8
+Debugging;6
 Testing;5
 Medical Devices;4
-Test Automation;8
+Test Automation;7
 Integration;7
 Control Systems;5
 Robotics;3
 Electronics;2
+Real-Time;8
