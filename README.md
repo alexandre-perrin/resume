@@ -23,9 +23,7 @@
 
 ## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
 
-I am a creative and curious developper with strong technical skills in 
-embedded systems in real time environment. I am independent and I keep 
-myself up-to-date to relevent technologies and techniques. 
+I am a creative and curious developer with strong technical skills in embedded systems in real time environment. I am independent and I keep myself up-to-date to relevant technologies and techniques. 
 I see myself more and more attracted to CI/CD DevOps solutions, IOT and  scripting.
 
 
