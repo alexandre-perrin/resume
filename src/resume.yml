@@ -24,7 +24,7 @@ experience:
       url: http://www.merckmillipore.com
     positions:
       - title: Control Systems and Embedded Software Expert
-        dates: 2018 - now
+        dates: sept 2018 - now
         description: |
           Brought support on the development and deployment of new commercial Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000) 
         details:
@@ -63,7 +63,7 @@ experience:
               - Writing investigations, development and deployment journals in notebook 
 
       - title: Embedded Software Engineer
-        dates: 2018 - now
+        dates: dec 2013 - sept 2018
         description: |
           Pursued development of Medical Device firmware of Baxter's product Viva Hemodialysis System (project abandoned later on), then worked on the development of Milli-Q Type 1 Ultrapure Water product IQ-7000
         details:
@@ -83,7 +83,7 @@ experience:
       name: Médiane Système
       url: https://www.medianesysteme.com
     title: Embedded Software Engineer
-    dates: 2010 - 2013
+    dates: jul 2010 - dec 2013
     description: |
       Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
     details:
@@ -97,7 +97,7 @@ experience:
       name: Hauptman Woodward Institute
       url: https://hwi.buffalo.edu
     title: Intern - Software Engineer
-    dates: 2009 - 2010
+    dates: feb 2009 - mai 2010
     description: |
       Developed a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments and designed a software tool to present crystallographic growth experiment data as plots
     details:
@@ -108,7 +108,7 @@ experience:
   - company:
       name: Sagem DS
     title: Intern - Software Developer
-    dates: 2007 - 2008
+    dates: sept 2007 - feb 2008
     description: |
       Developed a new digital electronic control for an inertial vibrating gyro-meter sensor
     details:

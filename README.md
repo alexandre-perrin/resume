@@ -84,7 +84,7 @@ You can talk to me in
 
 ### [Merck Millipore](http://www.merckmillipore.com)
 
-**Control Systems and Embedded Software Expert** *2018 - now*
+**Control Systems and Embedded Software Expert** *sept 2018 - now*
 
 Brought support on the development and deployment of new commercial Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000) 
 
@@ -120,7 +120,7 @@ Brought support on the development and deployment of new commercial Milli-Q prod
 </details>
 </details>
 
-**Embedded Software Engineer** *2018 - now*
+**Embedded Software Engineer** *dec 2013 - sept 2018*
 
 Pursued development of Medical Device firmware of Baxter's product Viva Hemodialysis System (project abandoned later on), then worked on the development of Milli-Q Type 1 Ultrapure Water product IQ-7000
 
@@ -147,7 +147,7 @@ Pursued development of Medical Device firmware of Baxter's product Viva Hemodial
 ### [Médiane Système](https://www.medianesysteme.com)
 
     
-**Embedded Software Engineer** *2010 - 2013*
+**Embedded Software Engineer** *jul 2010 - dec 2013*
 
 Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
 
@@ -167,7 +167,7 @@ Participated to the development of firmware for OEM Medical Device project for B
 ### [Hauptman Woodward Institute](https://hwi.buffalo.edu)
 
     
-**Intern - Software Engineer** *2009 - 2010*
+**Intern - Software Engineer** *feb 2009 - mai 2010*
 
 Developed a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments and designed a software tool to present crystallographic growth experiment data as plots
 
@@ -185,7 +185,7 @@ Developed a proof of concept with 4-axis robot arm to handle cristallograpy grot
 ### Sagem DS
 
     
-**Intern - Software Developer** *2007 - 2008*
+**Intern - Software Developer** *sept 2007 - feb 2008*
 
 Developed a new digital electronic control for an inertial vibrating gyro-meter sensor
 
