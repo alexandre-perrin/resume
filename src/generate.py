@@ -29,11 +29,11 @@ class IonIcons(Icon):
     fmt = '{url}/{name}.svg'
 
 class MaterialIoIcons(Icon):
-    url = 'https://material.io/resources/icons/static/icons'
+    url = 'https://fonts.gstatic.com/s/i/materialicons'
     style = 'round'
     size = '24px'
     type = 'svg'
-    fmt = '{url}/{style}-{name}-{size}.{type}'
+    fmt = '{url}{style}/{name}/v1/{size}.{type}'
     
 icons = {
     'experience': MaterialIoIcons('work'),

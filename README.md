@@ -21,7 +21,7 @@
 </details>
 
 
-## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
+## ![](https://fonts.gstatic.com/s/i/materialiconsround/person/v1/24px.svg) Who am I? 
 
 Creative and curious developer with strong technical skills in embedded systems with real time constraints. 
 Independent and up-to-date to relevant technologies and techniques. 
@@ -33,7 +33,7 @@ You can talk to me in
  or 
 **english** I'm fluent
 
-## ![](https://material.io/resources/icons/static/icons/round-how_to_reg-24px.svg) What I'm good at...
+## ![](https://fonts.gstatic.com/s/i/materialiconsround/how_to_reg/v1/24px.svg) What I'm good at...
 
 
 **Top technical skills:**
@@ -80,7 +80,7 @@ You can talk to me in
 </details>
 
 ---
-## ![](https://material.io/resources/icons/static/icons/round-work-24px.svg) What did I do? 
+## ![](https://fonts.gstatic.com/s/i/materialiconsround/work/v1/24px.svg) What did I do? 
 
 ### [Merck Millipore](http://www.merckmillipore.com)
 
@@ -201,7 +201,7 @@ Developed a new digital electronic control for an inertial vibrating gyro-meter 
 </details>
 
 ---
-## ![](https://material.io/resources/icons/static/icons/round-school-24px.svg) My background 
+## ![](https://fonts.gstatic.com/s/i/materialiconsround/school/v1/24px.svg) My background 
 ### [UTBM](https://www.utbm.fr/)
 
 **GESC (Master's)**
@@ -231,7 +231,7 @@ In charge of quality and specifications writing
 *2000 - 2003*
 
 
-## ![](https://material.io/resources/icons/static/icons/round-favorite-24px.svg) What else? 
+## ![](https://fonts.gstatic.com/s/i/materialiconsround/favorite/v1/24px.svg) What else? 
 **Machine Learning at Google Crash Course** *In progress*
 
 
