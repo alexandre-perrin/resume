@@ -23,8 +23,9 @@
 
 ## ![](https://material.io/resources/icons/static/icons/round-person-24px.svg) Who am I? 
 
-I am a creative and curious developer with strong technical skills in embedded systems in real time environment. I am independent and I keep myself up-to-date to relevant technologies and techniques. 
-I see myself more and more attracted to CI/CD DevOps solutions, IOT and  scripting.
+Creative and curious developer with strong technical skills in embedded systems with real time constraints. 
+Independent and up-to-date to relevant technologies and techniques. 
+Familiar with CI/CD DevOps solutions and curious about IOT and machine learning.
 
 
 You can talk to me in 
@@ -81,12 +82,11 @@ You can talk to me in
 ---
 ## ![](https://material.io/resources/icons/static/icons/round-work-24px.svg) What did I do? 
 
-### [Merck Millipore](http://www.merckmillipore.)
+### [Merck Millipore](http://www.merckmillipore.com)
 
 **Control Systems and Embedded Software Expert** *2018 - now*
 
-I brought support on the development and deployement of new commercial 
-Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
+Brought support on the development and deployment of new commercial Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000) 
 
 <details><summary>Details</summary>
 
@@ -122,14 +122,12 @@ Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
 
 **Embedded Software Engineer** *2018 - now*
 
-I first pursued development of Medical Device firmware of Baxter's product Viva
-Hemodialysis System (project abandoned later on), then worked on the development
-of Milli-Q Type 1 Ultrapure Water product IQ-7000
+Pursued development of Medical Device firmware of Baxter's product Viva Hemodialysis System (project abandoned later on), then worked on the development of Milli-Q Type 1 Ultrapure Water product IQ-7000
 
 <details><summary>Details</summary>
 
 * wrote functional and design specifications
-* developped multiple <b>real-time</b> devices firmwares
+* developed multiple <b>real-time</b> devices firmwares
 * contributed to firmware maintenance
 
 <details><summary>Work</summary>
@@ -151,8 +149,7 @@ of Milli-Q Type 1 Ultrapure Water product IQ-7000
     
 **Embedded Software Engineer** *2010 - 2013*
 
-I participated to the development of Medical Device firmware OEM project for Baxter's
-product Vivia Hemodialysis System
+Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
 
 <details><summary>Details</summary>
 
@@ -172,7 +169,7 @@ product Vivia Hemodialysis System
     
 **Intern - Software Engineer** *2009 - 2010*
 
-My mission was to develop a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments, then to design a software tool to present experiment data as plots
+Developed a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments and designed a software tool to present crystallographic growth experiment data as plots
 
 <details><summary>Details</summary>
 
@@ -188,7 +185,7 @@ My mission was to develop a proof of concept with 4-axis robot arm to handle cri
 ### Sagem DS
 
     
-**Intern** *2006 - 2007*
+**Intern - Software Developer** *2007 - 2008*
 
 Developed a new digital electronic control for an inertial vibrating gyro-meter sensor
 
@@ -210,7 +207,6 @@ Developed a new digital electronic control for an inertial vibrating gyro-meter 
 **GESC (Master's)**
 *Electrical, Control Theory, Embedded Systems*
 *2006 - 2009*
-
 **Activities:**
 
 Project Manager of University Robotic Club in 2008 
@@ -218,11 +214,10 @@ Managed a 20 members team divided in 8 sub-projects
 In charge of quality and specifications writing
 
 
-### Factulté des schiences de Nancy
+### Factulté des sciences de Nancy
 
 *Electrical, Electronics and Networks*
 *2005 - 2006*
-
 
 ### IUT du Montet - Nancy
 
@@ -230,18 +225,20 @@ In charge of quality and specifications writing
 *Electrical and Industrial Engineering*
 *2003 - 2005*
 
-
 ### Lycée Saint-Joseph - Laxou
 
-**BAC - STI Electronique**
+**Highschool diploma - Electronics Engineering (BAC - STI Electronique)**
 *2000 - 2003*
 
 
-
 ## ![](https://material.io/resources/icons/static/icons/round-favorite-24px.svg) What else? 
-**Student film making** *2003 - 2005*
+**Machine Learning at Google Crash Course** *In progress*
 
-I participated to making a short movie for a suddent non-for-profit organization. I assisted the stage manager and director in various tasks, such as technical deployement, sound taking, visual effects.
+
+</details>
+</details>
+
+**Matlab Embedded Coder Course** *June 2019*
 
 
 </details>
@@ -249,7 +246,17 @@ I participated to making a short movie for a suddent non-for-profit organization
 
 **Eurobot (European Robotic Cup)** *2006 - 2007*
 
-During my degree at UTBM, I participated to the European robotic cup. I worked on developping the ejection process of collected items and assisted the developpment on the control loop for the robot movements. 
+Participated to the European robotic cup. 
+Worked on developing the ejection process of collected items and assisted the development on the control loop for the robot movements.
+
+
+</details>
+</details>
+
+**Student film making** *2003 - 2005*
+
+Participated to making a short movie for a suddent non-for-profit organization. 
+Assisted the stage manager and director in various tasks, such as technical deployement, sound taking, visual effects.
 
 </details>
 </details>

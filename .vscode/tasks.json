@@ -7,7 +7,7 @@
             "group": "build",
             "label": "generate",
             "type": "shell",
-            "command": "py resume.py",
+            "command": "py src/generate.py",
             "problemMatcher": []
         }
     ]

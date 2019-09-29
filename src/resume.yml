@@ -5,28 +5,28 @@ birth:
 sex: male
 drive: Yes
 address: |
-  67 D avenue du général de Gaulle,
-  92130 Issy-les-Moulineaux - France
+  7 rue François Mouthon,
+  75015 Paris - France
 tel: +33(0)6 52 00 84 81
 email: alexandreperr@gmail.com
 github: https://github.com/alexandre-perrin
 linkedin: https://www.linkedin.com/in/alexandre-perrin-90976443/
 presentation: |
-  I am a creative and curious developer with strong technical skills in embedded systems in real time environment. I am independent and I keep myself up-to-date to relevant technologies and techniques. 
-  I see myself more and more attracted to CI/CD DevOps solutions, IOT and  scripting.
+  Creative and curious developer with strong technical skills in embedded systems with real time constraints. 
+  Independent and up-to-date to relevant technologies and techniques. 
+  Familiar with CI/CD DevOps solutions and curious about IOT and machine learning.
 languages:
   french: native
   english: fluent
 experience:
   - company: 
       name: Merck Millipore
-      url: http://www.merckmillipore.
+      url: http://www.merckmillipore.com
     positions:
       - title: Control Systems and Embedded Software Expert
         dates: 2018 - now
         description: |
-          I brought support on the development and deployement of new commercial 
-          Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000)
+          Brought support on the development and deployment of new commercial Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000) 
         details:
           - wrote functional and design specifications
           - contributed to baremetal real-time firmware and linux services development and maintenance
@@ -65,12 +65,10 @@ experience:
       - title: Embedded Software Engineer
         dates: 2018 - now
         description: |
-          I first pursued development of Medical Device firmware of Baxter's product Viva
-          Hemodialysis System (project abandoned later on), then worked on the development
-          of Milli-Q Type 1 Ultrapure Water product IQ-7000
+          Pursued development of Medical Device firmware of Baxter's product Viva Hemodialysis System (project abandoned later on), then worked on the development of Milli-Q Type 1 Ultrapure Water product IQ-7000
         details:
           - wrote functional and design specifications
-          - developped multiple real-time devices firmwares
+          - developed multiple real-time devices firmwares
           - contributed to firmware maintenance
         projects:
           - title: Bare metal ARM micro-controllers (STM32) development in C
@@ -87,8 +85,7 @@ experience:
     title: Embedded Software Engineer
     dates: 2010 - 2013
     description: |
-      I participated to the development of Medical Device firmware OEM project for Baxter's
-      product Vivia Hemodialysis System
+      Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
     details:
       - developed Proof Of Concept tools (C# / LabVIEW) 
       - wrote risk assessment with Software of Unknown Pedigree/Commercial off-the-shelf software
@@ -102,7 +99,7 @@ experience:
     title: Intern - Software Engineer
     dates: 2009 - 2010
     description: |
-      My mission was to develop a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments, then to design a software tool to present experiment data as plots
+      Developed a proof of concept with 4-axis robot arm to handle cristallograpy groth experiments and designed a software tool to present crystallographic growth experiment data as plots
     details:
       - programmed Epson robot (SCARA) arm routines with Visual Basic .NET user interface 
       - designed mechanical tray and a pick-up tool prototype to handle samples
@@ -110,8 +107,8 @@ experience:
 
   - company:
       name: Sagem DS
-    title: Intern
-    dates: 2006 - 2007
+    title: Intern - Software Developer
+    dates: 2007 - 2008
     description: |
       Developed a new digital electronic control for an inertial vibrating gyro-meter sensor
     details:
@@ -127,10 +124,10 @@ education:
     degree: GESC (Master's)
     field: Electrical, Control Theory, Embedded Systems
     activities: |
-        Project Manager of University Robotic Club in 2008 
-        Managed a 20 members team divided in 8 sub-projects
-        In charge of quality and specifications writing
-  - name: Factulté des schiences de Nancy
+      Project Manager of University Robotic Club in 2008 
+      Managed a 20 members team divided in 8 sub-projects
+      In charge of quality and specifications writing
+  - name: Factulté des sciences de Nancy
     field: Electrical, Electronics and Networks
     dates: 2005 - 2006
   - name: IUT du Montet - Nancy
@@ -138,16 +135,24 @@ education:
     field: Electrical and Industrial Engineering
     dates: 2003 - 2005
   - name: Lycée Saint-Joseph - Laxou
-    degree: BAC - STI Electronique
+    degree: Highschool diploma - Electronics Engineering (BAC - STI Electronique)
     dates: 2000 - 2003
     
 projects:
-  - title: Student film making
-    dates: 2003 - 2005
-    description: |
-      I participated to making a short movie for a suddent non-for-profit organization. I assisted the stage manager and director in various tasks, such as technical deployement, sound taking, visual effects.
+  - title: Machine Learning at Google Crash Course
+    url: https://developers.google.com/machine-learning/crash-course
+    dates: In progress
+  - title: Matlab Embedded Coder Course
+    url: https://www.mathworks.com/
+    dates: June 2019
   - title: Eurobot (European Robotic Cup)
     url: http://www.eurobot.org/
     dates: 2006 - 2007
     description: |
-      During my degree at UTBM, I participated to the European robotic cup. I worked on developping the ejection process of collected items and assisted the developpment on the control loop for the robot movements. 
+      Participated to the European robotic cup. 
+      Worked on developing the ejection process of collected items and assisted the development on the control loop for the robot movements.
+  - title: Student film making
+    dates: 2003 - 2005
+    description: |
+      Participated to making a short movie for a suddent non-for-profit organization. 
+      Assisted the stage manager and director in various tasks, such as technical deployement, sound taking, visual effects.

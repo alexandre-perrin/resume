@@ -15,7 +15,9 @@
     {% if pos.title %}
 **{{pos.title}}** *{{pos.dates}}*
 
+    {% if pos.description %}
 {{ data.highlight_skills(pos.description) }}
+    {% endif %}
     {% if pos.details %}
 <details><summary>Details</summary>
 
@@ -50,7 +52,9 @@
     {% if edu.field %}*{{edu.field}}*
     {% endif %}
     {% if edu.dates %}*{{edu.dates}}*
-    {% endif %}{{edu.description}}
+    {% endif %}
+    {% if edu.description %}{{edu.description}}
+    {% endif %}
     {% if edu.activities %}
 **Activities:**
 
