@@ -149,7 +149,7 @@ Pursued development of Medical Device firmware of Baxter's product Viva Hemodial
     
 **Embedded Software Engineer** *jul 2010 - dec 2013*
 
-Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
+Contributed to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
 
 <details><summary>Details</summary>
 

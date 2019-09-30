@@ -85,7 +85,7 @@ experience:
     title: Embedded Software Engineer
     dates: jul 2010 - dec 2013
     description: |
-      Participated to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
+      Contributed to the development of firmware for OEM Medical Device project for Baxter's product Vivia Hemodialysis System
     details:
       - developed Proof Of Concept tools (C# / LabVIEW) 
       - wrote risk assessment with Software of Unknown Pedigree/Commercial off-the-shelf software
