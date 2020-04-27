@@ -5,7 +5,7 @@
 
 <details><summary>Info</summary>
 
-34 years old
+35 years old
 
 ![](imgs/baby-carriage.png) 07-05-1985 / Nancy - France
 
@@ -48,6 +48,7 @@ You can talk to me in
 * **Real-Time**
 * **Software Architecture**
 * **CI/CD**
+* **GitLab**
 * **Linux**
 * **Integration**
 * **Test Automation**
@@ -82,9 +83,15 @@ You can talk to me in
 ---
 ## ![](https://fonts.gstatic.com/s/i/materialiconsround/work/v1/24px.svg) What did I do? 
 
-### [Merck Millipore](http://www.merckmillipore.com)
+### [ARM Ltd Cambridge](https://www.arm.com)
 
-**Control Systems and Embedded Software Expert** *sept 2018 - now*
+**Senior Software Engineer** *april 2020 - now*
+
+***TO BE CONTINUED ;)***
+
+### [Merck Millipore](https://www.merckmillipore.com)
+
+**Control Systems and Embedded Software Expert** *sept 2018 - april 2020*
 
 Brought support on the development and deployment of new commercial Milli-Q products (IQ-7000, IQ-70XX, EQ-7000, IX-7000) 
 
